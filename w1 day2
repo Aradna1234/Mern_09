@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> github profile</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+     <div class="main">
+      <div class="options">
+        <button>Repo</button>
+        <button>overview</button>
+        <button>starts</button>
+        <button>overview</button>
+        <button>packages</button>
+
+      </div>
+     </div>
+     <div class="container">
+    <div class="Aside">
+
+    </div>
+      <div class="profile">
+        <img src="C:\Users\Shehzad\Downloads\download.jpg" alt="">
+      </div>
+    
+      
+      <div class="about">
+        <h1>Aradhna Nankani</h1>
+         
+        <button style="size: 15px;">follow</button>
+      </div>
+    
+      
+      <div class="skills">
+        Linux | TypeScript | NodeJS | NestJS | React | Next JS | Java | Spring Boot | Microservices | AWS | Hardhat |
+      
+      </div>
+    </div>
+      <div class="Info">
+    
+      <h1 style=" float: right; text-align: center;  margin-right: 300px;">Hey there its me Aradhna Nankani</h1>
+      <p style=" float: left; margin-left: 500px; margin: bottom;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae non a neque rem nisi, perspiciatis, qui numquam quibusdam totam quis beatae! Ipsa similique ad nemo quo, autem earum sunt cupiditate.</p>
+      
+    </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
