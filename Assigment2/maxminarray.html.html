@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>The original array: [28, 45, 69, 20, 15, 7, 98]</p> 
+    <p id="result"></p> 
+    <script> 
+        let array = [28, 45, 69, 20, 15, 7, 98]; 
+        let min = array[0], max = array[0]; 
+        for (let i = 1; i < array.length; i++) { 
+           if (array[i] > max) 
+              max = array[i]; 
+           if (array[i] < min) 
+              min = array[i]; 
+         } 
+         document.getElementById('result').innerHTML = 
+            "The maximum or the largest element of the array is: " + max + "<br>" + 
+            "The minimum or the smallest element of the array is: " + min; 
+     </script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
