@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google page</title>
+    <style>
+        .main{
+            border: 1px solid brown;
+            height: 500px;
+            width: 100%;
+        }
+
+        h1{
+            font-size: xx-large;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        input{
+            text-align: center;
+            margin-left: 470px;
+            height: 30px;
+            width: 300px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+       
+        .circle_1{
+                border: 2px solid black;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                margin-left: 50px;
+                margin-top: 30px;
+                display: flex;
+                background-image: url("pic.jpg");
+                
+        }
+    
+        .wrap{
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1> Google</h1>
+        <input type="text" placeholder="Search Here!">
+
+        
+           <div class="wrap">
+                <div class="circle_1" style="margin-left: 500px;">
+
+                </div>
+                <div class="circle_1">
+
+                </div>
+                <div class="circle_1">
+
+                </div>
+
+
+    
+           </div>
+           <div class="wrap">
+            <div class="circle_1" style="margin-left: 500px;">
+
+            </div>
+            <div class="circle_1">
+            </div>
+            <div class="circle_1">
+            </div>
+           </div>       
+    </div>
+</body>
+</html>
